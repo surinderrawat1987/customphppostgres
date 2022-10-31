@@ -1,0 +1,7 @@
+span.error{
+    color:red;
+}
+
+.quickform div.error {
+    width: 80%;
+}
