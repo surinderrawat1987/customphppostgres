@@ -7,7 +7,8 @@ You can use this file to add more environment variables
 
 Create default db name test and create table
 
-```CREATE TABLE public.users (
+```
+CREATE TABLE public.users (
     id integer DEFAULT nextval('public.user_id_seq'::regclass) NOT NULL,
     firstname character varying(40) NOT NULL,
     lastname character varying(40) NOT NULL,
